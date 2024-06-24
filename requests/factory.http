@@ -1,0 +1,16 @@
+### Create a new Dog with Factory
+POST http://localhost:8002/dogs
+Content-Type: application/json
+
+{
+  "species": "Dog"
+}
+
+
+### Create a new Dog with Factory
+POST http://localhost:8002/cats
+Content-Type: application/json
+
+{
+  "species": "Cat"
+}
